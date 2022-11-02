@@ -1,0 +1,9 @@
+from aiogram import Bot
+
+BOT_TOKEN = "{token of the bot}"
+
+BOT = Bot(token=BOT_TOKEN, parse_mode="HTML")
+
+CHOOSEN_CHAT = {id of the chat that acts as a whitelist}
+
+ADMINS = [{list of id's of admins of the bot}]
